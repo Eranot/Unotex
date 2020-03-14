@@ -11,4 +11,5 @@ Obtenha esse projeto e utilize um compilador LaTeX para compilá-lo.
 # Créditos
 
 [Renato Mello Konflanz](https://github.com/Eranot)
+
 [William Murari](https://github.com/williammu6)
