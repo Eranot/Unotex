@@ -1,0 +1,32 @@
+\chapter{Algoritmos}
+
+Por ora, o único pacote que funcionou com o ambiente \texttt{ibgetab} foi o
+\texttt{algorithm2e}.
+
+\begin{algoritmo}[h]
+\ibgetab{
+  \caption{Como escrever algoritmos}%
+  \label{alg:exemplo}
+}{
+\begin{algorithm}[H]
+  \SetAlgoLined%
+  \KwData{this text}
+  \KwResult{how to write algorithm with \LaTeX2e}
+
+  initialization\;
+  \While{not at end of this document}{
+    read current\;
+    \eIf{understand}{
+      go to next section\;
+      current section becomes this one\;
+    }{
+      go back to the beginning of current section\;
+    }
+  }
+  % não usamos caption aqui por causa do \ibgetab
+  %\caption{How to write algorithms}
+\end{algorithm}
+}{
+  \fonte{os autores do \href{https://ctan.org/pkg/algorithm2e}{algorithm2e}}
+}
+\end{algoritmo}

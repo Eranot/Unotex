@@ -1,0 +1,165 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.9 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{netto}{book}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=17cbc60ec23a2a71367cac15e85b0e2e}{%
+           family={Boaventura\bibnamedelima Netto},
+           familyi={B\bibinitperiod\bibinitdelim N\bibinitperiod},
+           given={Paulo\bibnamedelima Oswaldo},
+           giveni={P\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=5f10714d2d7091d90cd51f4a8121b869}{%
+           family={Jurkiewicz},
+           familyi={J\bibinitperiod},
+           given={Samuel},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \list{publisher}{1}{%
+        {Blucher}%
+      }
+      \strng{namehash}{3975472f8fa335ae7e157e51ce4cf5a2}
+      \strng{fullhash}{3975472f8fa335ae7e157e51ce4cf5a2}
+      \strng{bibnamehash}{3975472f8fa335ae7e157e51ce4cf5a2}
+      \strng{authorbibnamehash}{3975472f8fa335ae7e157e51ce4cf5a2}
+      \strng{authornamehash}{3975472f8fa335ae7e157e51ce4cf5a2}
+      \strng{authorfullhash}{3975472f8fa335ae7e157e51ce4cf5a2}
+      \field{sortinit}{B}
+      \field{sortinithash}{276475738cc058478c1677046f857703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{title}{Grafos: Introdução e Pŕatica}
+      \field{year}{2017}
+    \endentry
+    \entry{costa}{thesis}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=64cdd46e217a34d6b0b1805bde27ac44}{%
+           family={Costa},
+           familyi={C\bibinitperiod},
+           given={Polyanna\bibnamedelima Possani},
+           giveni={P\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universidade Estadual Paulista, Instituto de Geociências e Ciências Exatas}%
+      }
+      \strng{namehash}{64cdd46e217a34d6b0b1805bde27ac44}
+      \strng{fullhash}{64cdd46e217a34d6b0b1805bde27ac44}
+      \strng{bibnamehash}{64cdd46e217a34d6b0b1805bde27ac44}
+      \strng{authorbibnamehash}{64cdd46e217a34d6b0b1805bde27ac44}
+      \strng{authornamehash}{64cdd46e217a34d6b0b1805bde27ac44}
+      \strng{authorfullhash}{64cdd46e217a34d6b0b1805bde27ac44}
+      \field{sortinit}{C}
+      \field{sortinithash}{963e9d84a3da2344e8833203de5aed05}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{bookpagination}{sheet}
+      \field{title}{Teoria dos grafos e suas aplicações}
+      \field{type}{Dissertação - (mestrado)}
+      \field{year}{2011}
+      \verb{urlraw}
+      \verb http://hdl.handle.net/11449/94358
+      \endverb
+      \verb{url}
+      \verb http://hdl.handle.net/11449/94358
+      \endverb
+    \endentry
+    \entry{gonzalez}{book}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=5fb81c2c667dc57b391dc8535f8cdc55}{%
+           family={Gonzalez},
+           familyi={G\bibinitperiod},
+           given={Rafael\bibnamedelima C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=44357e9cebb9c9be192d9438170d83cb}{%
+           family={Woods},
+           familyi={W\bibinitperiod},
+           given={Richard\bibnamedelima E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \list{publisher}{1}{%
+        {Pearson}%
+      }
+      \strng{namehash}{e7fcae86d77937443358935fb58478f3}
+      \strng{fullhash}{e7fcae86d77937443358935fb58478f3}
+      \strng{bibnamehash}{e7fcae86d77937443358935fb58478f3}
+      \strng{authorbibnamehash}{e7fcae86d77937443358935fb58478f3}
+      \strng{authornamehash}{e7fcae86d77937443358935fb58478f3}
+      \strng{authorfullhash}{e7fcae86d77937443358935fb58478f3}
+      \field{sortinit}{G}
+      \field{sortinithash}{5e8d2bf9d38de41b1528bd307546008f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{3}
+      \field{title}{Processamento Digital de Imagens}
+      \field{year}{2009}
+    \endentry
+    \entry{uci}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=0e9999073557ade7bbeb28f3194b8980}{%
+           family={UCI},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{0e9999073557ade7bbeb28f3194b8980}
+      \strng{fullhash}{0e9999073557ade7bbeb28f3194b8980}
+      \strng{bibnamehash}{0e9999073557ade7bbeb28f3194b8980}
+      \strng{authorbibnamehash}{0e9999073557ade7bbeb28f3194b8980}
+      \strng{authornamehash}{0e9999073557ade7bbeb28f3194b8980}
+      \strng{authorfullhash}{0e9999073557ade7bbeb28f3194b8980}
+      \field{sortinit}{U}
+      \field{sortinithash}{36a2444f5238e0dcf4bb59704df6624d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Histogram Equalization}
+      \field{urlday}{22}
+      \field{urlmonth}{4}
+      \field{urlyear}{2019}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.math.uci.edu/icamp/courses/math77c/demos/hist_eq.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.math.uci.edu/icamp/courses/math77c/demos/hist_eq.pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

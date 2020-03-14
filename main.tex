@@ -1,0 +1,128 @@
+\documentclass[serif, english, brazilian, openany, oneside]{unotex}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{threeparttable}
+
+\usepackage[
+  style=abnt-numeric,
+  style=abnt,
+]{biblatex}
+
+\usepackage[useregional=num]{datetime2}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage[labelfont=bf]{caption}
+\usepackage{csquotes}
+\usepackage{newtxtext}
+\usepackage{newtxmath}
+\usepackage{cleveref}
+\usepackage{amsmath}
+\usepackage{float}
+\usepackage{mathtools}
+\usepackage{ltablex}
+\usepackage{ifthen}
+
+\usepackage{tabularx,ragged2e}
+\newcolumntype{C}{>{\arraybackslash}X} %9
+
+\usepackage[
+  linesnumbered,
+  lined,
+  boxed,
+  commentsnumbered
+]{algorithm2e}
+
+% CONFIGURAÇÃO DO QUADRO
+\usepackage{listings}
+
+\lstset{ %
+    language=Python,
+    basicstyle=\footnotesize,
+    numbers=left,
+    numberstyle=\tiny\color{gray},
+    stepnumber=1,    
+    numbersep=5pt,
+    backgroundcolor=\color{white},
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    frame=single,
+    rulecolor=\color{black},
+    tabsize=2,
+    captionpos=t,
+    breaklines=true,
+    breakatwhitespace=false,
+    escapeinside={\%*}{*)},
+    morekeywords={import,from,class,def,for,while,if,is,in,elif,else,not,and,or,print,break,continue,return,True,False,None,access,as,,del,except,exec,finally,global,import,lambda,pass,print,raise,try,assert}
+}
+
+% et al com itálico
+\renewbibmacro*{name:andothers}{
+  \ifboolexpr{
+    test {\ifnumequal{\value{listcount}}{\value{liststop}}}
+    and
+    test \ifmorenames
+  }
+    {\ifnumgreater{\value{liststop}}{1}
+       {\finalandcomma}
+       {}%
+     \andothersdelim\bibstring[\emph]{andothers}}
+    {}}
+
+
+% Adiciona arquivo de referências para o biblatex
+\addbibresource{referencias.bib}
+
+% Comandos de dados
+\autor{Renato Mello Konflanz}
+\instituicao{Universidade Comunitária da Região de Chapecó}
+\newcommand{\unochapeco}{(Unochapecó)}
+\newcommand{\dataeano}{Chapecó - SC, 2019}
+\newcommand{\dataemeseano}{Chapecó, Dezembro de 2019}
+\newcommand{\dataediaemeseano}{Chapecó, 04 de Dezembro de 2019}
+\newcommand{\area}{Área de ciências exatas e ambientais}
+\newcommand{\nomeorientador}{Prof. Marcos Antonio Moretto}
+\newcommand{\tituloorientador}{M.Sc}
+\newcommand{\tipocurso}{Bacharelado}
+
+\newcommand{\titulodoautor}{Bacharel em Sistemas de Informação}
+
+\newcommand{\nomebancaum}{Prof. Giancarlo Salton}
+\newcommand{\titulobancaum}{Dr.}
+
+\newcommand{\nomebancadois}{Prof. Sandro Oliveira}
+\newcommand{\titulobancadois}{MSc.}
+
+\newcommand{\nomesupervisor}{Prof. Sandro Oliveira}
+\newcommand{\titulosupervisor}{MSc.}
+
+\newcommand{\nomecoord}{Profa. Mônica Tissiani de Toni Pereira}
+\newcommand{\titulocoord}{MSc.}
+
+\titulo{Título do seu trabalho de conclusão de curso}
+%\subtitulo{Um subtitulo se você tiver}
+\curso{Sistemas de Informação}
+\uf{SC}
+\renewcommand{\preambulo}{Relatório do Trabalho de Conclusão de Curso submetido à Universidade Comunitária da Região de Chapecó para obtenção do título de bacharelado no curso de Sistemas de Informação.}
+\data{\hoje}
+% \coorientador{Beltrano da Computação}
+\tipotrabalho{Trabalho de conclusão de curso (graduação)}
+
+\begin{document}
+\pretextual%
+
+\input{pre-textuais/pre-textuais.tex}
+
+% Início da parte textual
+\textual%
+
+\input{introducao/introducao.tex}
+\input{bibliografia/bibliografia.tex}
+\input{conclusao/conclusao.tex}
+
+\postextual%
+
+\printbibliography[heading=abnt]
+
+\end{document}

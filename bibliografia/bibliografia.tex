@@ -1,0 +1,131 @@
+\chapter{Citações}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fermentum pretium leo, non eleifend massa ornare vitae. Vestibulum iaculis sapien sit amet ex aliquet, sit amet porta velit vulputate. In leo nisi, hendrerit sit amet tempus eu, ornare et neque. Sed ultrices, velit id sagittis mattis, nisi sem cursus justo, a lobortis justo mauris quis risus. Etiam ut sagittis massa. Morbi laoreet, tellus non sollicitudin dignissim, leo lorem varius mi, ac maximus nisl sem id nunc. Proin lorem massa, bibendum eget pellentesque eget, porttitor eu urna. \enquote{Morbi laoreet, tellus non sollicitudin dignissim, leo lorem varius mi, ac maximus nisl sem id nunc. Proin lorem massa, bibendum eget pellentesque eget, porttitor eu urna} \cite{netto}.
+
+Lorem ipsum dolor sit amet, \textcite{netto} morbi laoreet, tellus non sollicitudin dignissim, leo lorem varius mi, ac maximus nisl sem id nunc. Proin lorem massa, bibendum eget pellentesque eget, porttitor eu urna. 
+\begin{citacao}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fermentum pretium leo, non eleifend massa ornare vitae. Vestibulum iaculis sapien sit amet ex aliquet, sit amet porta velit vulputate. In leo nisi, hendrerit sit amet tempus eu, ornare et neque. Sed ultrices, velit id sagittis mattis, nisi sem cursus justo, a lobortis justo mauris quis risus. Etiam ut sagittis massa. Morbi laoreet, tellus non sollicitudin dignissim, leo lorem varius mi, ac maximus nisl sem id nunc. \cite[p. 5]{gonzalez}.
+\end{citacao}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fermentum pretium leo, non eleifend massa ornare vitae. Vestibulum iaculis sapien sit amet ex aliquet, sit amet porta velit vulputate. In leo nisi, hendrerit sit amet tempus eu, ornare et neque. Sed ultrices, velit id sagittis mattis, nisi sem cursus justo, a lobortis justo mauris quis risus. Etiam ut sagittis massa.
+
+
+\chapter{Imagens}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fermentum pretium leo, non eleifend massa ornare vitae. Vestibulum iaculis sapien sit amet ex aliquet, sit amet porta velit vulputate. In leo nisi, hendrerit sit amet tempus eu, ornare et neque. Sed ultrices, velit id sagittis mattis, nisi sem cursus justo, a lobortis justo mauris quis risus. Etiam ut sagittis massa. Morbi laoreet, tellus non sollicitudin dignissim, leo lorem varius mi, ac maximus nisl sem id nunc. Proin lorem massa, bibendum eget pellentesque eget, porttitor eu urna \autoref{fig:konigsberg}.
+
+\fig{Pontes de Königsberg}{konigsberg}{scale=0.6}{img/konigsberg.png}{\cite{netto}}{ht}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fermentum pretium leo, non eleifend massa ornare vitae. Vestibulum iaculis sapien sit amet ex aliquet, sit amet porta velit vulputate. In leo nisi, hendrerit sit amet tempus eu, ornare et neque. Sed ultrices, velit id sagittis mattis, nisi sem cursus justo, a lobortis justo mauris quis risus. Etiam ut sagittis massa. Morbi laoreet, tellus non sollicitudin dignissim, leo lorem varius mi, ac maximus nisl sem id nunc. Proin lorem massa, bibendum eget pellentesque eget, porttitor eu urna.
+
+
+\fig{Vértice adjacentes e laço}{adjacente_laco}{scale=0.6}{img/adjacente_laco.png}{elaboração do autor}{ht}
+
+Lorem ipsum dolor sit amet, \autoref{fig:adjacente_laco} consectetur adipiscing elit. Cras fermentum pretium leo, non eleifend massa ornare vitae. Vestibulum iaculis sapien sit amet ex aliquet, sit amet porta velit vulputate. In leo nisi, hendrerit sit amet tempus eu, ornare et neque. Sed ultrices, velit id sagittis mattis, nisi sem cursus justo, a lobortis justo mauris quis risus. Etiam ut sagittis massa. Morbi laoreet, tellus non sollicitudin dignissim, leo lorem varius mi, ac maximus nisl sem id nunc. Proin lorem massa, bibendum eget pellentesque eget, porttitor eu urna.
+
+
+\fig{Exemplos de imagens filtradas por filtros de média}{exemplos_filtros_media}{scale=0.4}{img/exemplos_filtros_media.png}{\textcite{gonzalez}}{ht}
+
+\chapter{Equações}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fermentum pretium leo, non eleifend massa ornare vitae. Vestibulum iaculis sapien sit amet ex aliquet, sit amet porta velit vulputate. In leo nisi, hendrerit sit amet tempus eu, ornare et neque. Sed ultrices, velit id sagittis mattis, nisi sem cursus justo, a lobortis justo mauris quis risus. Etiam ut sagittis massa. Morbi laoreet, tellus non sollicitudin dignissim, leo lorem varius mi, ac maximus nisl sem id nunc. Proin lorem massa, bibendum eget pellentesque eget, porttitor eu urna.
+
+
+\eq{ht}{Equação de vizinhança de um vértice}{vizinhanca}{
+ {} & V(v) = \{w \in V|vw \in A\}\\
+    &\footnotesize\text{Fonte: \textcite{costa}}
+}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fermentum pretium leo, non eleifend massa ornare vitae. Vestibulum iaculis sapien sit amet ex aliquet, sit amet porta velit vulputate \autoref{eq:vizinhanca}.
+
+\eq{ht}{Função de normalização de intensidade}{eq_normalization}{
+ {} & p_n = \dfrac{\text{número de \textit{pixels} com intensidade n}}{\text{número total de \textit{pixels}}}\\
+    &\footnotesize\text{Fonte: \textcite{uci}}
+}
+
+Lorem ipsum dolor sit amet \autoref{eq:eq_normalization}, consectetur adipiscing elit. Cras fermentum pretium leo, non eleifend massa ornare vitae. Vestibulum iaculis sapien sit amet ex aliquet, sit amet porta velit vulputate.
+
+\eq{ht}{Função da equalização de histograma}{histogram_eq}{
+ {} & g_{i, j} = floor((L - 1) \sum_{n=0}^{f_{i, j}} p_n)\\
+    &\footnotesize\text{Fonte: \textcite{uci}}
+}
+
+Lorem ipsum dolor sit amet \autoref{eq:histogram_eq}, consectetur adipiscing elit. Cras fermentum pretium leo, non eleifend massa ornare vitae. Vestibulum iaculis sapien sit amet ex aliquet, sit amet porta velit vulputate.
+
+\chapter{Quadros de código}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fermentum pretium leo, non eleifend massa ornare vitae. Vestibulum iaculis sapien sit amet ex aliquet, sit amet porta velit vulputate. In leo nisi, hendrerit sit amet tempus eu, ornare et neque. Sed ultrices, velit id sagittis mattis, nisi sem cursus justo, a lobortis justo mauris quis risus. Etiam ut sagittis massa. Morbi laoreet, tellus non sollicitudin dignissim, leo lorem varius mi, ac maximus nisl sem id nunc. Proin lorem massa, bibendum eget pellentesque eget, porttitor eu urna. \autoref{load_image} lorem ipsum dolor sit amet.
+
+\begin{quadro}[H]
+    \caption{Exemplo de leitura e visualização de imagem}
+    \label{load_image}
+    \begin{scriptsize}
+    \lstinputlisting[language=Python]{codes/load_image.py}
+    \end{scriptsize}
+    \raggedright\footnotesize\text{Fonte: elaboração do autor}
+\end{quadro}
+
+\chapter{Tabelas}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fermentum pretium leo, non eleifend massa ornare vitae. Vestibulum iaculis sapien sit amet ex aliquet, sit amet porta velit vulputate. In leo nisi, hendrerit sit amet tempus eu, ornare et neque. Sed ultrices, velit id sagittis mattis, nisi sem cursus justo, a lobortis justo mauris quis risus. Etiam ut sagittis massa. Morbi laoreet, tellus non sollicitudin dignissim, leo lorem varius mi, ac maximus nisl sem id nunc.
+
+\begin{table}[h!]\begin{center}
+	\caption{Cronograma}\label{tab-cronograma}
+	\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} c c c c c c c c c c c c c}
+		\toprule
+		& Etapa & Fev & Mar & Abr & Mai & Jun & Jul & Ago & Set & Out & Nov &\\
+		\midrule
+		&   1   &  x  &  x  &  x  &  -  &  -  &  -  &  -  &  -  &  -  &  -  &\\
+		&   2   &  x  &  x  &  -  &  -  &  -  &  -  &  -  &  -  &  -  &  -  &\\
+		&   3   &  x  &  x  &  x  &  x  &  x  &  x  &  x  &  -  &  -  &  -  &\\
+		&   4   &  -  &  -  &  -  &  x  &  x  &  -  &  -  &  -  &  x  &  x  &\\
+		&   5   &  -  &  -  &  -  &  -  &  -  &  x  &  -  &  -  &  -  &  -  &\\
+		&   6   &  -  &  -  &  -  &  -  &  -  &  x  &  x  &  -  &  -  &  -  &\\
+		&   7   &  -  &  -  &  -  &  -  &  -  &  x  &  x  &  x  &  -  &  -  &\\
+		&   8   &  -  &  -  &  -  &  -  &  -  &  -  &  x  &  x  &  x  &  -  &\\
+		&   9   &  -  &  -  &  -  &  -  &  -  &  -  &  -  &  -  &  x  &  x  &\\
+		&   10  &  -  &  -  &  -  &  -  &  -  &  -  &  -  &  -  &  -  &  x  &\\
+		\bottomrule   
+	\end{tabular*}
+\end{center}\end{table}
+
+\begin{table}[h!]\begin{center}
+	\caption{Orçamento}\label{tab-orcamento}
+	\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l l c l c}
+		\toprule
+		& Item  & Quantidade & Custo unitário &\\
+		\midrule
+		& Impressão e encadernação espiral   &  3  &  R\$ 15,00  &\\
+		& Carcaça do robô com 4 motores   &  1  &  R\$ 500,00  &\\
+		& Raspberry Pi 3 Model B+   &  1  &  R\$ 290,00  &\\
+		& Câmera \textit{webcam}   &  1  &  R\$ 100,00  &\\
+		& Ponte H & 2 & R\$ 13,00&\\
+		& Bateria   &  2  &  R\$ 90,00  &\\
+		& Lâmpada   &  1  &  R\$ 35,00  &\\
+		& Sensor ultrassônico de proximidade   &  1  &  R\$ 8,00  &\\
+		\bottomrule
+		& & & Valor total: R\$ 1184,00  &
+	\end{tabular*}
+\end{center}\end{table}
+
+\chapter{Outros}
+
+\section{Listas}
+
+In leo nisi, hendrerit sit amet tempus eu, ornare et neque. Sed ultrices, velit id sagittis mattis, nisi sem cursus justo, a lobortis justo mauris quis risus. Etiam ut sagittis massa.
+
+\begin{enumerate}
+    \item Detecção de pisos táteis;
+    \item Detecção de intersecções em pisos táteis;
+    \item Uma forma de mapear ambientes;
+    \item Utilização da detecção do pisos táteis e do mapa para criar um direcionador que aponta o caminho entre dois locais do mapa.
+\end{enumerate}
+
+
+\section{Aspas}
+
+Lorem ipsum dolor sit amet, \enquote{consectetur adipiscing elit. Cras fermentum pretium leo, non eleifend massa ornare} vitae. Vestibulum iaculis sapien sit amet ex aliquet, sit amet porta velit vulputate. In leo nisi, hendrerit sit amet tempus eu, ornare et neque. Sed ultrices, velit id sagittis mattis, nisi sem cursus justo, a lobortis justo mauris quis risus. Etiam ut sagittis massa. Morbi laoreet, tellus non sollicitudin dignissim, leo lorem varius mi, ac maximus nisl sem id nunc. Proin lorem massa, bibendum eget pellentesque eget, porttitor eu urna.
+
+\section{Itálico}
+
+In leo nisi, \textit{hendrerit sit amet tempus eu, ornare et neque}. Sed ultrices, velit id sagittis mattis, nisi sem cursus justo, a lobortis justo mauris quis risus. Etiam ut sagittis massa.

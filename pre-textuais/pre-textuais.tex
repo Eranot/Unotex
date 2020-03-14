@@ -1,0 +1,41 @@
+\imprimircapa
+\imprimirfolhaderosto
+
+\imprimirfolhadeaprovacao
+{
+    \vspace*{19cm}
+    \hspace*{7cm}
+    \begin{minipage}{0.5\textwidth}
+        \mdseries
+        \SingleSpacing
+    
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in quam placerat, accumsan est eget, placerat ligula. Nullam eget neque feugiat, lobortis dolor sit amet.
+    \end{minipage}
+    \vspace{1cm}
+}
+
+\cleardoublepage
+
+
+\pdfbookmark{\listfigurename}{lof}
+\listoffigures*
+\cleardoublepage%
+
+\listofequations*
+\cleardoublepage
+
+\pdfbookmark[0]{\listofquadrosname}{loq}
+\listofquadros*
+\cleardoublepage
+
+\listoftables*
+\cleardoublepage
+
+\input{pre-textuais/resumo.tex}
+
+% Coloca o sumário no "sumário do PDF"
+% (chamado de bookmark do PDF).
+\pdfbookmark{\contentsname}{toc}
+% Versão com * não coloca o próprio sumário no sumário
+\tableofcontents*
+\cleardoublepage%
